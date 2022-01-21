@@ -1,0 +1,60 @@
+/* Put your CSS here. */
+
+/*based on instructions from developer.mozilla, */
+html {
+    font-size: 12px; 
+    font-family: "Open Sans", sans-serif;
+    background-color: #ffe6e6;
+  }
+
+  
+li {
+    color: rgb(15, 167, 154);
+    width: 300px;
+    border: 1px dotted black;
+  }
+  
+  
+p, h1 {
+    color: maroon;
+  }
+
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h2, h4 {
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  
+  
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #f2d9d9;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  
+
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px rgb(131, 131, 131);
+  }
+  /*The older h1 color gets replaced with the newer one*/
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
