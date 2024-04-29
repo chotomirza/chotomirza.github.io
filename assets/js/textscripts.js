@@ -1,7 +1,8 @@
 const phrases = [
     "console myself for not buying a house in fourth grade",
-    "understand why humans are bahaving like this",
-    "turn waste into art",    
+    "understand why humans are behaving like this",
+    "transform waste into works of art",  
+    "use Generative AI to finish this sentence",    
   ];
   let currentPhrase = 0;
   const textElement = document.getElementById('dynamic-text');
