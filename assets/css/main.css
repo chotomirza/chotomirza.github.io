@@ -4218,8 +4218,36 @@ input, select, textarea {
 
 /* Adjustments for smaller screens */
 
-@media (max-width: 650px) {
+
+/* Responsive Font Sizes */
+@media (max-width: 1400px) {
     .typewriter h5 {
-        white-space: normal; /* Allows text to wrap to prevent overflow */
+        font-size: 1em; /* Slightly smaller font */
+		white-space: normal; /* Allows text to wrap to prevent overflow */
+    }
+}
+
+@media (max-width: 992px) {
+    .typewriter h5 {
+        font-size: 0.9em; /* Even smaller font */
+    }
+}
+
+@media (max-width: 768px) {
+    .typewriter h5 {
+        font-size: 0.8em; /* Default size for tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .typewriter h5 {
+        font-size: 0.7em; /* Smaller font for large phones */
+    }
+}
+
+@media (max-width: 400px) {
+    .typewriter h5 {
+        font-size: 0.5em; /* Even smaller font for smaller phones */
+		
     }
 }
