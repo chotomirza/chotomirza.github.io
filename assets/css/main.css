@@ -4211,3 +4211,19 @@ input, select, textarea {
 			50% { border-color: orange; }
 		  }
 		  
+
+		  
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 650px) {
+    .typewriter h5 {
+        white-space: normal; /* Allows text to wrap to prevent overflow */
+        flex-direction: column; /* Stacks flex items vertically */
+    }
+    .typewriter #dynamic-text {
+        margin-left: 0; /* Removes left margin */
+        margin-top: 0.5em; /* Adds a small space above dynamic text */
+        width: 100%; /* Full width to start animation from full width of new line */
+    }
+}
