@@ -4198,7 +4198,7 @@ input, select, textarea {
 			vertical-align: bottom; /* Aligns with the static text */
 			border-right: .15em solid orange; /* Cursor for the dynamic text */
 			width: 0; /* Start with no width */
-			animation: blink-caret .75s step-end infinite;
+			animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 		  }
 		  
 		  @keyframes typing {
